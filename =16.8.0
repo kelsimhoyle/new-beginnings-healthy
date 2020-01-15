@@ -1,0 +1,25 @@
+
+> bufferutil@4.0.1 install /Users/Kelsi/Desktop/new-beginnings-healthy/node_modules/bufferutil
+> node-gyp-build
+
+
+> utf-8-validate@5.0.2 install /Users/Kelsi/Desktop/new-beginnings-healthy/node_modules/utf-8-validate
+> node-gyp-build
+
++ codemirror@5.50.2
++ bufferutil@4.0.1
++ codemirror@5.50.2
++ utf-8-validate@5.0.2
++ redux@2.0.0
++ webpack@4.41.5
++ @types/react@16.9.17
++ @types/react@16.9.17
++ netlify-cms-lib-util@2.5.1
++ netlify-cms-lib-util@2.5.1
+added 7 packages from 847 contributors, removed 1 package, updated 4 packages and audited 34545 packages in 34.137s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+found 1 low severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
