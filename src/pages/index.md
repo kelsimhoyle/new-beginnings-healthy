@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: A New Beginning
+image: /img/main-img.jpg
+heading: Health coaching to improve your life.
+subheading: Start your new beginning to a healthy lifestyle.
 mainpitch:
   title: Why Kaldi
   description: >

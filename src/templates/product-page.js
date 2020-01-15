@@ -134,7 +134,7 @@ const ProductPage = ({ data }) => {
   return (
     <Layout>
       <ProductPageTemplate
-        image={frontmatter.image}
+        // image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
@@ -157,6 +157,7 @@ ProductPage.propTypes = {
 }
 
 export default ProductPage
+
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
