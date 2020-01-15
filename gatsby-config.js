@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'A New Beginning -- Health Coaching to improve your life',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Guidance and services provided to help you down the right path to your new healthy lifestyle.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
