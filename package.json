@@ -23,6 +23,7 @@
     "gatsby-source-filesystem": "^2.0.26",
     "gatsby-transformer-remark": "^2.6.9",
     "gatsby-transformer-sharp": "^2.1.9",
+    "immutable": "^3.8.2",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms-app": "^2.9.6",
@@ -36,6 +37,7 @@
     "react-helmet": "^5.2.0",
     "react-parallax": "^3.0.3",
     "redux": "^2.0.0",
+    "typescript": "^3.7.4",
     "utf-8-validate": "^5.0.2",
     "uuid": "^3.2.1",
     "webpack": "^4.41.5"

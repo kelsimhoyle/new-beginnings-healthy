@@ -1,0 +1,9 @@
++ immutable@3.8.2
++ typescript@3.7.4
+added 1 package from 1 contributor, updated 1 package and audited 34547 packages in 24.977s
+
+62 packages are looking for funding
+  run `npm fund` for details
+
+found 1 low severity vulnerability
+  run `npm audit fix` to fix them, or `npm audit` for details
