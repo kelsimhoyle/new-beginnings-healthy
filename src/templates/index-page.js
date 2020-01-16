@@ -37,7 +37,8 @@ export const IndexPageTemplate = ({
               color: 'white',
               lineHeight: '1',
               paddingTop: '15%',
-              textAlign: 'center'
+              textAlign: 'center',
+              textShadow: '2px 2px #9a9a9a'
             }}
           >
             {title}
@@ -45,67 +46,19 @@ export const IndexPageTemplate = ({
           <h3
             className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
             style={{
-              // boxShadow:
-              //   'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-              // backgroundColor: 'rgb(255, 68, 0)',
+
               color: 'white',
               lineHeight: '1',
               padding: '2% 0 15% 0',
-              textAlign: 'center'
+              textAlign: 'center',
+              textShadow: '2px 2px #9a9a9a'
             }}
           >
             {subheading}
           </h3>
         </div>
       </Parallax>
-      {/* <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-            })`,
-          backgroundPosition: `top left`,
-          backgroundAttachment: `fixed`,
-        }}
-      >
-        <div
-          style={{
-            display: 'flex',
-            height: '150px',
-            lineHeight: '1',
-            justifyContent: 'space-around',
-            alignItems: 'left',
-            flexDirection: 'column',
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-            style={{
-              // boxShadow:
-              //   'rgb(255, 68, 5) 0.5rem 0px 0px, rgb(255, 68, .5) -0.5rem 0px 0px',
-              // backgroundColor: 'rgb(255, 68, .5)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.25em',
-            }}
-          >
-            {title}
-          </h1>
-          <h3
-            className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-            style={{
-              // boxShadow:
-              //   'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-              // backgroundColor: 'rgb(255, 68, 0)',
-              color: 'white',
-              lineHeight: '1',
-              padding: '0.25em',
-            }}
-          >
-            {subheading}
-          </h3>
-        </div>
-      </div> */}
+
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
@@ -131,23 +84,15 @@ export const IndexPageTemplate = ({
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
+                      <Link className="btn" to="/services">
+                        Learn More
                     </Link>
                     </div>
                   </div>
                   <div
                     className="column is-12"
                   >
-                    <div
-                      style={{
-                        position: 'relative',
-                        left: '50%',
-                        right: '50%',
-                        margin: '2em -50vw',
-                        maxWidth: '100vw'
-                      }}
-                    >
+                    <div className="parallax-container">
                       <Parallax
                         blur={{ min: -15, max: 15 }}
                         bgImage={require("../img/blog.jpg")}
@@ -161,14 +106,12 @@ export const IndexPageTemplate = ({
                           <h2 style={{
                             textAlign: 'center',
                             padding: '5% 0 15% 0',
-                            color: 'white'
+                            color: 'white',
+                            textShadow: '2px 2px #9a9a9a'
                           }}>Helpful Tips</h2>
                         </div>
                       </Parallax>
                     </div>
-                    {/* <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3> */}
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">

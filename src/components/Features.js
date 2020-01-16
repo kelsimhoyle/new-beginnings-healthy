@@ -6,30 +6,24 @@ import { Parallax } from 'react-parallax';
 
 const FeatureGrid = ({ gridItems }) => (
   <div>
-  <div style={{
-        position: 'relative',
-        left: '50%',
-        right: '50%',
-        margin: '2em -50vw',
-        maxWidth: '100vw'
-      }}>
-    <Parallax
-      blur={{ min: -15, max: 15 }}
-      bgImage={require("../img/rearview.jpg")}
-      bgImageAlt="Content Woman"
-      strength={200}
-    >
-      <div style={{
-        minHeight: '20vh',
-         }}>
-        <h2 style={{
-          textAlign: 'center',
-          padding: '5% 0 15% 0',
-          color: 'white',
-      
-        }}>Services For Your New Beginning</h2>
-      </div>
-    </Parallax>
+    <div className="parallax-container">
+      <Parallax
+        blur={{ min: -15, max: 15 }}
+        bgImage={require("../img/rearview.jpg")}
+        bgImageAlt="Content Woman"
+        strength={200}
+      >
+        <div style={{
+          minHeight: '20vh',
+        }}>
+          <h2 style={{
+            textAlign: 'center',
+            padding: '5% 0 15% 0',
+            color: 'white',
+            textShadow: '2px 2px #9a9a9a'
+          }}>Services For Your New Beginning</h2>
+        </div>
+      </Parallax>
     </div>
     <div className="columns is-multiline">
       {gridItems.map(item => (

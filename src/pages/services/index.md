@@ -1,7 +1,7 @@
 ---
 templateKey: 'services-page'
 path: /services
-title: How can we Help
+title: How Can I Help?
 image: /img/services.jpg
 heading: Guidance just for you.
 description: >-
@@ -23,28 +23,25 @@ intro:
     - image: /img/bottle.png
       text: >
         Making choices for your health begins with your mindset. Little steps and changes can make a huge difference.
-  heading: What we offer
+  heading: 
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Let's get started!
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+        Contact me for a consultation. After, we can decide together on the path where you will be most successful. I will be guiding you along the way.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Climbing up stairs
+    image: /img/stairs.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Food prep
+    image: /img/cooking.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Woman Running
+    image: /img/running.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
