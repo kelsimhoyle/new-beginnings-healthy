@@ -5,12 +5,11 @@ title: How can we Help
 image: /img/services.jpg
 heading: Guidance just for you.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  As a certified Primal Health Coach, I am your guide on your path to a healthy lifestyle. You have unique challenges, and I will help you tackle them.
+image4: 
+  alt: Primal Health Coach Certified
+  image: /img/badge.png
 intro:
-  blurbs:
   blurbs:
     - image: /img/mind.png
       text: >

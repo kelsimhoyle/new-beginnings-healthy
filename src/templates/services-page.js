@@ -12,6 +12,7 @@ export const ServicesPageTemplate = ({
   title,
   heading,
   description,
+  image4,
   intro,
   main,
   fullImage
@@ -55,6 +56,8 @@ export const ServicesPageTemplate = ({
                   </h3>
                   <p>{main.description}</p>
                 </div>
+              </div>
+              <div className="is-size-5">
               </div>
               <div className="tile is-ancestor">
                 <div className="tile is-vertical">
@@ -102,6 +105,7 @@ ServicesPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
+  image4: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -127,6 +131,7 @@ const ServicesPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
+        image4={frontmatter.image4}
         intro={frontmatter.intro}
         main={frontmatter.main}
         fullImage={frontmatter.full_image}
@@ -159,6 +164,16 @@ export const servicesPageQuery = graphql`
         }
         heading
         description
+        image4 {
+          alt
+          image {
+            childImageSharp {
+              fluid(maxWidth: 526, quality: 92) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
         intro {
           blurbs {
             image {

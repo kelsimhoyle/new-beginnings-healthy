@@ -14,6 +14,7 @@ const ServicesPagePreview = ({ entry, getAsset }) => {
       title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
       description={entry.getIn(['data', 'description'])}
+      image4={entry.getIn(['data', 'image4'])}
       intro={{ blurbs }}
       main={{
         heading: entry.getIn(['data', 'main', 'heading']),
