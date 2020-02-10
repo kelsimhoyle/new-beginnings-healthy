@@ -7,7 +7,7 @@ class BlogRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
-
+    if (data) {
     return (
       <div>
 
@@ -58,6 +58,12 @@ class BlogRoll extends React.Component {
         </div>
       </div>
     )
+                        } else {
+                          return ( <div>
+                          <h3>Blog Posts Comming Soon!</h3>
+                          <p>Come back soon to chek out tips and recipes to get you heading in the right direction.</p>
+                          </div>)
+                        }
   }
 }
 
