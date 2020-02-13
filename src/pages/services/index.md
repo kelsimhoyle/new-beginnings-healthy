@@ -8,7 +8,7 @@ description: >-
   As a certified Primal Health Coach, I am your guide on your path to a healthy lifestyle. You have unique challenges, and I will help you tackle them.
 image4: 
   alt: Primal Health Coach Certified
-  image: /img/certified.png
+  image: /img/certified.jpg
 intro:
   blurbs:
     - image: /img/mind.png

@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
-import certified from "../img/certified.png"
+import certified from "../img/certified.jpg"
 
 const Footer = class extends React.Component {
   render() {
