@@ -20,7 +20,7 @@ export const IndexPageTemplate = ({
       <Parallax
         blur={{ min: -15, max: 15 }}
         bgImage={!!image.childImageSharp ? image.childImageSharp.fluid.src : image}
-        bgImageAlt="Blog Header"
+        bgImageAlt="Background"
         strength={200}
       >
         <div
