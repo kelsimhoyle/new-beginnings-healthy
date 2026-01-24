@@ -25,7 +25,7 @@
     "gatsby-transformer-remark": "^2.6.9",
     "gatsby-transformer-sharp": "^2.1.9",
     "immutable": "^3.8.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms-app": "^2.11.18",
     "netlify-cms-lib-util": "^2.5.1",
